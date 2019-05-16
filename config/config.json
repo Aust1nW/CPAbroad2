@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "cpabroad",
+    "password": "thisisapassword",
+    "database": "cpabroad",
+    "host": "ambari-head.csc.calpoly.edu",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "cpabroad",
+    "password": "thisisapassword",
+    "database": "cpabroad",
+    "host": "ambari-head.csc.calpoly.edu",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "cpabroad",
+    "password": "thisisapassword",
+    "database": "cpabroad",
+    "host": "ambari-head.csc.calpoly.edu",
+    "dialect": "postgres"
+  }
+}

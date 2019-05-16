@@ -1,0 +1,34 @@
+{
+  "name": "cpabroad2",
+  "version": "1.0.0",
+  "description": "Cal Poly Abroad Senior Project",
+  "main": "app.js",
+  "scripts": {
+    "start": "./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aust1nW/CPAbroad2.git"
+  },
+  "author": "Austin Woo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aust1nW/CPAbroad2/issues"
+  },
+  "homepage": "https://github.com/Aust1nW/CPAbroad2#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "pg": "^7.10.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^5.8.5",
+    "sequelize-cli": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
