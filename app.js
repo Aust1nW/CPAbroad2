@@ -12,6 +12,10 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
+app.get('/', (req, res) => {
+    res.send("Local host server is online, API is functioning properly");
+});
+
 var locationRouter = require('./routes/locations');
 //var foodTypeRouter = require('./routes/foodType');
 //var entertainmentTypeRouter = require('./routes/entertainmentType');

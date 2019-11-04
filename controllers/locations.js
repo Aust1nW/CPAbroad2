@@ -30,13 +30,14 @@ exports.getLocationByName = async(req,res) => {
         });
     }
     catch(err){
-        res.send(404)
         console.log(err);
+        res.send(404);
+        
 
     }
 }
 
-exports.getLocationsByCountry = async(req,res) => {
+exports.getLocationByCountry = async(req,res) => {
     try{
         locations.findAll({where: {country: req.params.country}}).then((location)=>{
             if(location == null){
@@ -69,3 +70,11 @@ exports.getLocationByContinent = async(req,res) =>{
         console.log(err);
     }
 }
+
+//exports.deleteLocation = async( req, res) => {
+//    try {
+//        locations.findById(req.params.id).then((account)) =>{
+//            
+  //      }
+//    }
+//
